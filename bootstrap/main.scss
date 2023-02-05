@@ -1,0 +1,60 @@
+// @import "./functions";
+// @import "./variables";
+// @import "./maps";
+// @import "./mixins";
+// @import "./utilities";
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-image: url(../img/first-backgro.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: #FCEED5;
+    // background-image: url(../img/box.svg);
+    // background-position: bottom right;
+    background-image: url(../img/girl.svg);
+    background-position: bottom right;
+    
+    // background-image: url(../img/blue.svg);
+    // background-position: bottom right;
+    
+    height: 800px;
+
+}
+
+
+.first-h1{
+    color: #002A48;
+    font-size: 46px;
+}
+.first-h2{
+    color: #002A48;
+    font-size: 28px;
+}
+
+.first-a{
+    border: 2px solid #002A48;
+    border-radius: 30px;
+    padding-left: 20px;
+    width: 150px;
+    height: 50px;
+    padding-top: 10px;
+}
+.second-a{
+    border: 2px solid #002A48;
+    border-radius: 30px;
+    padding-left: 20px;
+    width: 150px;
+    height: 50px;
+    padding-top: 10px;
+    background-color: #002A48;
+    color: white;
+}
