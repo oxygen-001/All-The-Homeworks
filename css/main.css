@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic&family=Public+Sans&display=swap");
+
+body {
+  font-family: "Livvic", sans-serif;
+  font-family: "Public Sans", sans-serif;
+}
+.maincontainer {
+  width: 327px;
+  margin: 0 auto;
+}
+
+.boxes {
+  justify-content: space-between;
+}
+
+.first-section {
+  background-image: url("../img/blackback.svg");
+  background-repeat: no-repeat;
+  /* background-position: top center; */
+  background-position-x: -150px;
+  background-position-y: -120px;
+
+  height: 400px;
+}
+
+.first-button {
+  /* Rectangle */
+
+  /* position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%; */
+
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  border-radius: 22px;
+  width: 163;
+  height: 43px;
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  color: white;
+  border-radius: none;
+  padding: 8px 36px;
+  margin-top: 32px;
+}
+
+/* header {
+  background-color: #2d314d;
+} */
+
+nav {
+  background-color: white;
+}
+
+li {
+  list-style: none;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 350px) {
+  .maincontainer {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .first-ul {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .maincontainer {
+    width: 1400px;
+  }
+
+  .first-section {
+    background-image: url("../img/biggerbackgro.svg");
+    background-position-x: 600px;
+    background-position-y: -100px;
+    height: 774px;
+  }
+
+  .big-box {
+    padding-top: 60px;
+    width: 500px;
+  }
+  .first-button {
+    margin: 20px 0;
+  }
+
+  .first-ul {
+    display: flex;
+    gap: 30px;
+  }
+}
