@@ -1,1 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+    height: 400px;
+}
 
+
+form{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#input{
+    padding:5px 10px ;
+    border:none;
+    border-bottom: 1px solid #000;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: rgb(255, 0, 0);
+    padding: 7px 10px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
