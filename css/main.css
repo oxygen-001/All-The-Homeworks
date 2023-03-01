@@ -1,34 +1,91 @@
-*{
-    box-sizing: border-box;
-}
-.container{
-    width: 600px;
-    margin: 0 auto;
-    height: 400px;
+@import url("https://fonts.googleapis.com/css2?family=Livvic&family=Russo+One&display=swap");
+
+body {
+  font-family: "Livvic", sans-serif;
+  font-family: "Russo One", sans-serif;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-form{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: px;
-    justify-content: center;
-    align-items: center;
-    
+.container {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.nature {
+  background-image: url(../img/back-img.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  height: 200px;
+  display: grid;
+  justify-content: right;
+  align-items: end;
+}
+
+.first-p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 9px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.first-h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  padding-right: 5px;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 #input{
-    padding:5px 10px ;
-    border:none;
-    border-bottom: 1px solid #000;
+    width: 450px;
+    padding-left: 10px;
+    padding: 13.5px 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EBEFF2;
 }
 
 button{
-    border: none;
-    outline: none;
-    background-color: rgb(255, 0, 0);
-    padding: 7px 10px;
-    color: white;
+    background-color: #20EEB0;
     border-radius: 5px;
-    font-weight: bold;
+    border: none;
+    width: 65px;
+    padding: 14.5px 23px;
+    /* font-size: 30px; */
+    color: white;
+    /* padding-bottom: 5px; */
+    
+    /* margin-top: 10px; */
+}
+
+
+#form{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+#list{
+    list-style: none;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+li{
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 520px;
+    border-bottom: 1px solid #ccc;
 }
